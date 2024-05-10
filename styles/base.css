@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+:root {
+	--main-font-family: "Cormorant", Arial, Helvetica, sans-serif;
+	--montserrat-alternates-font-family: "Montserrat Alternates", Arial, Helvetica,
+		sans-serif;
+	--cormorant-infant-font-family: "Cormorant Infant", Arial, Helvetica,
+		sans-serif;
+	--main-font-size: 32px;
+	--main-color: #fff;
+}
+
+body {
+	min-width: 320px;
+	font-family: var(--main-font-family);
+	font-size: var(--main-font-size);
+	font-weight: 500;
+	color: var(--main-color);
+	background-color: #a9a8a3;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1722px;
+}
